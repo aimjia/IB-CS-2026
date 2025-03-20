@@ -7,4 +7,4 @@ for a in range(1,len(numbers)): #for loop for a that will start with the "second
         numbers[j+1] = numbers[j] # shift the bigger number one position to the right
         j-=1 # move j one step to the left to continue comparing
     numbers[j+1]=key # place key (pivot) in its correct position in the sorted part of the list
-print("sorted list:", numbers)   
+print("sorted list:", numbers) #t 
